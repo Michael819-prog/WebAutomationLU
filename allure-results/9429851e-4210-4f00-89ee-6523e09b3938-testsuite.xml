@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1645722695507' stop='1645722719258'>
+    <name>Oracle Sign up test</name>
+    <title>Oracle Sign up test</title>
+    <test-cases>
+        <test-case start='1645722695559' status='broken' stop='1645722719177'>
+            <name>Sign up with new user</name>
+            <title>Sign up with new user</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.102'/>
+            </parameters>
+            <steps>
+                <step start='1645722695568' status='passed' stop='1645722700645'>
+                    <name>Given User has opened Oracle Profile page</name>
+                    <title>Given User has opened Oracle Profile page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1645722700645' status='passed' stop='1645722713152'>
+                    <name>When User presses the Create Account button</name>
+                    <title>When User presses the Create Account button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1645722713153' status='broken' stop='1645722719176'>
+                    <name>And User fills out create account form</name>
+                    <title>And User fills out create account form</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>TypeError: Cannot read property 'country' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'country' of undefined
+                    at SignupTest.fillOutCreateAccountForm (/home/michael/Desktop/Programming/TestDevLab_practice/test_code/features/testobjects/signupTest.js:17:98)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+                    at World.&lt;anonymous> (/home/michael/Desktop/Programming/TestDevLab_practice/test_code/features/step-definitions/signupSteps.js:5:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

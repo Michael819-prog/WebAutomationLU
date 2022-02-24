@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1645716622258' stop='1645716637508'>
+    <name>Oracle Sign up test</name>
+    <title>Oracle Sign up test</title>
+    <test-cases>
+        <test-case start='1645716622353' status='broken' stop='1645716637474'>
+            <name>Sign up with new user</name>
+            <title>Sign up with new user</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.102'/>
+            </parameters>
+            <steps>
+                <step start='1645716622369' status='passed' stop='1645716626850'>
+                    <name>Given User has opened Oracle Profile page</name>
+                    <title>Given User has opened Oracle Profile page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1645716626851' status='passed' stop='1645716627332'>
+                    <name>When User presses the Create Account button</name>
+                    <title>When User presses the Create Account button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1645716627332' status='broken' stop='1645716637473'>
+                    <name>And User fills out create account form</name>
+                    <title>And User fills out create account form</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Can't call setValue on element with selector "input[id="sView1:r1:0:email::content"]" because element wasn't found</message>
+                <stack-trace>Error: Can't call setValue on element with selector "input[id="sView1:r1:0:email::content"]" because element wasn't found
+                    at implicitWait (/home/michael/Desktop/Programming/TestDevLab_practice/test_code/node_modules/webdriverio/build/utils/implicitWait.js:34:19)
+                    at Element.elementErrorHandlerCallbackFn (/home/michael/Desktop/Programming/TestDevLab_practice/test_code/node_modules/webdriverio/build/middlewares.js:20:29)
+                    at Element.wrapCommandFn (/home/michael/Desktop/Programming/TestDevLab_practice/test_code/node_modules/@wdio/utils/build/shim.js:137:29)
+                    at SignupTest.fillOutCreateAccountForm (/home/michael/Desktop/Programming/TestDevLab_practice/test_code/features/testobjects/signupTest.js:5:9)
+                    at World.&lt;anonymous> (/home/michael/Desktop/Programming/TestDevLab_practice/test_code/features/step-definitions/signupSteps.js:5:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,155 @@
+{
+  "uid" : "c70a86e25e7efc34",
+  "name" : "Invalid login with user",
+  "fullName" : "Oracle Login Test.Invalid login with user",
+  "historyId" : "dc40f661a65b35e386b02a601fb62c61",
+  "time" : {
+    "start" : 1645714404851,
+    "stop" : 1645714417427,
+    "duration" : 12576
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given User has opened Oracle Profile page",
+      "time" : {
+        "start" : 1645714404875,
+        "stop" : 1645714409955,
+        "duration" : 5080
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When User inputs abracadabra@gmail.com as the email",
+      "time" : {
+        "start" : 1645714409956,
+        "stop" : 1645714410644,
+        "duration" : 688
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And User inputs P@44w0rdd as the password",
+      "time" : {
+        "start" : 1645714410647,
+        "stop" : 1645714411433,
+        "duration" : 786
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And User presses the sign in button",
+      "time" : {
+        "start" : 1645714411433,
+        "stop" : 1645714416538,
+        "duration" : 5105
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then User sees invalid credentials message",
+      "time" : {
+        "start" : 1645714416539,
+        "stop" : 1645714417407,
+        "duration" : 868
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Oracle Login Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Oracle Login Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Invalid login with user"
+  }, {
+    "name" : "package",
+    "value" : "Oracle Login Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.102"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7b6cc1a74bbe50ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645713878893,
+        "stop" : 1645713891663,
+        "duration" : 12770
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c70a86e25e7efc34.json",
+  "parameterValues" : [ "chrome-98.0.4758.102" ]
+}
