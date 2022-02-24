@@ -1,5 +1,5 @@
 import { pages } from "../support/pages";
-import { data } from "../support/data";
+import { data } from "../support/data.js";
 
 export class SignupTest {
     async fillOutCreateAccountForm() {
@@ -10,15 +10,15 @@ export class SignupTest {
         }
 
         //filling out fields with random values
-        await pages.createAccountPage.getInputField("email").setValue(await data.userData.OracleUser.email);
-        await pages.createAccountPage.getInputField("password").setValue(await data.userData.OracleUser.password);
+        await pages.createAccountPage.getInputField("email").setValue(await data.userData.oracleUser.email);
+        await pages.createAccountPage.getInputField("password").setValue(await data.userData.oracleUser.password);
         
         //setting up random dropdown values
         await pages.createAccountPage.setDropdownValue("country", await data.userData.oracleUser.country);
         await pages.createAccountPage.setDropdownValue("state", await data.userData.oracleUser.state);
 
         //continue filling non-dropdown values
-        await pages.createAccountPage.getInputField("retypePassword").setValue(await data.userData.OracleUser.password);
+        await pages.createAccountPage.getInputField("retypePassword").setValue(await data.userData.oracleUser.password);
         await pages.createAccountPage.getInputField("firstName").setValue(await data.userData.oracleUser.firstName);
         await pages.createAccountPage.getInputField("lastName").setValue(await data.userData.oracleUser.lastName);
         await pages.createAccountPage.getInputField("lastName").setValue(await data.userData.oracleUser.lastName);

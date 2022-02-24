@@ -2,7 +2,7 @@ const { faker } = require('@faker-js/faker');
 
 export default class UserData {
     constructor() {
-        this.OracleUser = new OracleUser(
+        this.oracleUser = new OracleUser(
             faker.internet.email(), //generate random emails
             "AAaa1234$",
             "Latvia",
