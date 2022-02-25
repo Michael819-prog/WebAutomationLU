@@ -1,0 +1,41 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1645800583012' stop='1645800592217'>
+    <name>Oracle Sign up test</name>
+    <title>Oracle Sign up test</title>
+    <test-cases>
+        <test-case start='1645800583381' status='broken' stop='1645800592167'>
+            <name>Sign up with new user</name>
+            <title>Sign up with new user</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-97.0'/>
+            </parameters>
+            <steps>
+                <step start='1645800583401' status='broken' stop='1645800592152'>
+                    <name>Given User has opened Oracle Profile page</name>
+                    <title>Given User has opened Oracle Profile page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: element (".cb41create-btn") still not displayed after 5000ms</message>
+                <stack-trace>Error: element (".cb41create-btn") still not displayed after 5000ms
+                    at /home/michael/Desktop/Programming/TestDevLab_practice/test_code/node_modules/webdriverio/build/commands/browser/waitUntil.js:66:23
+                    at Element.wrapCommandFn (/home/michael/Desktop/Programming/TestDevLab_practice/test_code/node_modules/@wdio/utils/build/shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (/home/michael/Desktop/Programming/TestDevLab_practice/test_code/node_modules/webdriverio/build/middlewares.js:24:32)
+                    at Element.wrapCommandFn (/home/michael/Desktop/Programming/TestDevLab_practice/test_code/node_modules/@wdio/utils/build/shim.js:137:29)
+                    at Element.wrapCommandFn (/home/michael/Desktop/Programming/TestDevLab_practice/test_code/node_modules/@wdio/utils/build/shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (/home/michael/Desktop/Programming/TestDevLab_practice/test_code/node_modules/webdriverio/build/middlewares.js:24:32)
+                    at Element.wrapCommandFn (/home/michael/Desktop/Programming/TestDevLab_practice/test_code/node_modules/@wdio/utils/build/shim.js:137:29)
+                    at NavigationTest.openOracleProfilePage (/home/michael/Desktop/Programming/TestDevLab_practice/test_code/features/testobjects/navigationTest.js:6:9)
+                    at World.&lt;anonymous> (/home/michael/Desktop/Programming/TestDevLab_practice/test_code/features/step-definitions/navigationSteps.js:5:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

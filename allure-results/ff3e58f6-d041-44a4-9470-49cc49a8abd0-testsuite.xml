@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1645727480377' stop='1645727501428'>
+    <name>Oracle Sign up test</name>
+    <title>Oracle Sign up test</title>
+    <test-cases>
+        <test-case start='1645727480421' status='passed' stop='1645727501427'>
+            <name>Sign up with new user</name>
+            <title>Sign up with new user</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.102'/>
+            </parameters>
+            <steps>
+                <step start='1645727480428' status='passed' stop='1645727484539'>
+                    <name>Given User has opened Oracle Profile page</name>
+                    <title>Given User has opened Oracle Profile page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1645727484539' status='passed' stop='1645727488903'>
+                    <name>When User presses the Create Account button</name>
+                    <title>When User presses the Create Account button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1645727488903' status='passed' stop='1645727494783'>
+                    <name>And User fills out create account form</name>
+                    <title>And User fills out create account form</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1645727494783' status='passed' stop='1645727495380'>
+                    <name>And User presses the Sign Up button</name>
+                    <title>And User presses the Sign Up button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1645727495380' status='passed' stop='1645727501424'>
+                    <name>Then User is redirected to Check Your Email page</name>
+                    <title>Then User is redirected to Check Your Email page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

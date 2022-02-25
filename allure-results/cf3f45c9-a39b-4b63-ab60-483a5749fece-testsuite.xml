@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1645801307801' stop='1645801378506'>
+    <name>Oracle Login Test</name>
+    <title>Oracle Login Test</title>
+    <test-cases>
+        <test-case start='1645801307935' status='broken' stop='1645801378499'>
+            <name>Invalid login with user</name>
+            <title>Invalid login with user</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.102'/>
+            </parameters>
+            <steps>
+                <step start='1645801307954' status='passed' stop='1645801316371'>
+                    <name>Given User has opened Oracle Profile page</name>
+                    <title>Given User has opened Oracle Profile page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1645801316372' status='passed' stop='1645801317497'>
+                    <name>When User inputs abracadabra@gmail.com as the email</name>
+                    <title>When User inputs abracadabra@gmail.com as the email</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1645801317498' status='passed' stop='1645801318458'>
+                    <name>And User inputs P@44w0rdd as the password</name>
+                    <title>And User inputs P@44w0rdd as the password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1645801318460' status='broken' stop='1645801378499'>
+                    <name>And User presses the sign in button</name>
+                    <title>And User presses the sign in button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: function timed out, ensure the promise resolves within 60000 milliseconds</message>
+                <stack-trace>Error: function timed out, ensure the promise resolves within 60000 milliseconds
+                    at Timeout.&lt;anonymous> (/home/michael/Desktop/Programming/TestDevLab_practice/test_code/node_modules/@cucumber/cucumber/src/time.ts:53:14)
+                    at listOnTimeout (internal/timers.js:557:17)
+                    at processTimers (internal/timers.js:500:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
