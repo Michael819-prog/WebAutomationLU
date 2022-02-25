@@ -20,5 +20,8 @@ export class LoginTest {
 
         //second approach
         //await (expect(await pages.basePage.getInvalidCredentialMsg().getText()).toEqual("Invalid username and/or password."));
+
+        // const score = await browser.getPerformanceScore();
+        // console.log(`THE SCORE IS ${score}`);
     }
 }
